@@ -1,5 +1,5 @@
 ﻿Console.Write("И как же тебя зовут? ");
-string username = Console.ReadLine();
+string username = Convert.ToString (Console.ReadLine());
 
 if(username.ToLower() == "валера")
 {
