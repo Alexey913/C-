@@ -1,0 +1,15 @@
+D:\Python\C#\Lesson1\Seminar1\Example002\obj\Debug\net6.0\Example002.csproj.AssemblyReference.cache
+D:\Python\C#\Lesson1\Seminar1\Example002\obj\Debug\net6.0\Example002.GeneratedMSBuildEditorConfig.editorconfig
+D:\Python\C#\Lesson1\Seminar1\Example002\obj\Debug\net6.0\Example002.AssemblyInfoInputs.cache
+D:\Python\C#\Lesson1\Seminar1\Example002\obj\Debug\net6.0\Example002.AssemblyInfo.cs
+D:\Python\C#\Lesson1\Seminar1\Example002\obj\Debug\net6.0\Example002.csproj.CoreCompileInputs.cache
+D:\Python\C#\Lesson1\Seminar1\Example002\bin\Debug\net6.0\Example002.exe
+D:\Python\C#\Lesson1\Seminar1\Example002\bin\Debug\net6.0\Example002.deps.json
+D:\Python\C#\Lesson1\Seminar1\Example002\bin\Debug\net6.0\Example002.runtimeconfig.json
+D:\Python\C#\Lesson1\Seminar1\Example002\bin\Debug\net6.0\Example002.dll
+D:\Python\C#\Lesson1\Seminar1\Example002\bin\Debug\net6.0\Example002.pdb
+D:\Python\C#\Lesson1\Seminar1\Example002\obj\Debug\net6.0\Example002.dll
+D:\Python\C#\Lesson1\Seminar1\Example002\obj\Debug\net6.0\refint\Example002.dll
+D:\Python\C#\Lesson1\Seminar1\Example002\obj\Debug\net6.0\Example002.pdb
+D:\Python\C#\Lesson1\Seminar1\Example002\obj\Debug\net6.0\Example002.genruntimeconfig.cache
+D:\Python\C#\Lesson1\Seminar1\Example002\obj\Debug\net6.0\ref\Example002.dll
