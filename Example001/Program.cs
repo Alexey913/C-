@@ -58,3 +58,17 @@ string Metod4(int count, string text)
 }
 string res = Metod4(10, "Вид4_asdf");
 Console.WriteLine(res);
+Console.WriteLine();
+
+//Вид 4 с циклом for
+string Metod41 ( int count1, string text1)
+{
+    string result1 = String.Empty;
+    for (int j = 0; j<count1; j++) //вначале ключевое слово, затем инициализация счётчика, после проверка условия и инкремент (увеличение счётчика).
+    {
+        result1 = result1 + text1;
+    }
+    return result1;
+}
+string res1 = Metod41(10, "asdf");
+Console.WriteLine(res1);
