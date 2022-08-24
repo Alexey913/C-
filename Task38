@@ -97,19 +97,6 @@ switch (answer.ToLower())
 
 
 
-/******************************************************************************
-
-                            Online C# Compiler.
-                Code, Compile, Run and Debug C# program online.
-Write your code in this editor and press "Run" button to execute it.
-
-*******************************************************************************/
-
-using System;
-class HelloWorld {
-  static void Main() {
-
-
 //Задача 38: Задайте с клавиатуры массив вещественных (double) чисел. Найдите разницу между максимальным и минимальным элементов массива.
 //[3 7 22 2 78] -> 76
 
@@ -126,9 +113,6 @@ for (int i = 0; i < size; i++)
 }
     Console.WriteLine ();
     Console.WriteLine('[' + String.Join(", ", array) + ']');
-
-Console.WriteLine ("Нажмите Enter для продолжения");
-Console.ReadLine();
 
 double max = array[0];
 double min = array[0];
@@ -147,8 +131,8 @@ for (int i = 1; i < size; i++)
         minPosition = i;
     }
 }
-
-Console.Write("Разница между максимальным и минимальным элементами массива составляет {max-min}");
+double difference = max - min;
+Console.WriteLine($"Разница между максимальным и минимальным элементами массива составляет {difference}");
 
 // То, что ниже - необязательно для решения этой задачи
 
@@ -158,8 +142,8 @@ string answer = Console.ReadLine();
 switch (answer.ToLower())
 {
     case "y":
-    Console.WriteLine ("Максимальным является элемент {maxPosition} = {max}");
-    Console.WriteLine ("Минимальным является элемент {minPosition} = {min}");
+    Console.WriteLine ($"Максимальным является элемент {maxPosition} = {max}");
+    Console.WriteLine ($"Минимальным является элемент {minPosition} = {min}");
     break;
     
     case "n":
@@ -169,12 +153,4 @@ switch (answer.ToLower())
     default:
     Console.WriteLine ("Неверный ввод");
     break;
-}
-
-
-
-
-
-
-  }
 }
