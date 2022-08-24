@@ -1,4 +1,9 @@
-﻿void FillArray (int [] arr)
+﻿// Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами.
+// Напишите программу, которая покажет количество чётных чисел в массиве.
+// [345, 897, 568, 234] -> 2
+
+
+void FillArray (int [] arr)
 {    
     int length = arr.Length;
     for (int i = 0; i < length; i++)
@@ -15,14 +20,15 @@ void PrintArray (int [] print)
     {
         Console.Write($"{print[i]}, ");
     }
-    Console.WriteLine(print[printLength-1]);
+    Console.WriteLine($"{print[printLength-1]}]");
 }
 
-Console.WriteLine ("Задайте размерность массива положительных трехзначных чисел, я заполню его случайными элементами и определю количество четных элементов:");
+Console.WriteLine ("Задайте размерность массива положительных трехзначных чисел.");
+Console.WriteLine ("Я заполню его случайными элементами и определю количество четных элементов.");
+Console.WriteLine ("Сколько элементов будет в массиве?");
 int size = Convert.ToInt32 (Console.ReadLine ());
 int [] array = new int [size];
 FillArray (array);
-Console.WriteLine();
 PrintArray (array);
 int countEven = 0;
 for (int i = 0; i < size; i++)
