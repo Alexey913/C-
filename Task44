@@ -3,7 +3,7 @@
 // Если N = 3 -> 0 1 1
 // Если N = 7 -> 0 1 1 2 3 5 8
    
-
+    markForNew:
 Console.WriteLine ("До какого элемента нужно вывести числа Фибоначчи?");
 int N = Convert.ToInt32 (Console.ReadLine());
 
@@ -27,5 +27,22 @@ switch (N)
         fibonacci[i] = fibonacci[i-1] + fibonacci[i-2];
     }
     Console.WriteLine ('[' + String.Join (", ", fibonacci) + ']');
+    break;
+}
+Console.WriteLine ();
+Console.WriteLine ("Желаете выполнить повторный ввод? Y/N");
+string answer = Console.ReadLine();
+switch (answer.ToLower())
+{
+    case "y":
+    goto markForNew;
+    break;
+    
+    case "n":
+    Console.WriteLine ("Спасибо!");
+    break;
+    
+    default:
+    Console.WriteLine ("Ошибка ввода");
     break;
 }
