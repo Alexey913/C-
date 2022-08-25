@@ -32,28 +32,15 @@ if (k1 == k2)
 }
 else
 {
-    double xIntersection = (b2-b1)/(k1-k2);
-    double yIntersection = k2 * ((b2-b1) / (k1-k2)) + b2;   
+    double xIntersection = Math.Round((b2-b1)/(k1-k2), 1);
+    double yIntersection = Math.Round(k2 * ((b2-b1) / (k1-k2)) + b2, 1);   
     Console.WriteLine ($"Точка пересечения имеет координаты ({xIntersection}; {yIntersection})");
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Далее попробуем графический вывод 
+ 
+//  Зададим систему координат в виде двумерного массива с четвертями размером 40х40 элементов
  double [,] graph = new double[,] 
-
 { 
 
 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -140,29 +127,31 @@ else
 };
 
 
+// Далее находим элементы массива, номер позиции которых совпадает с координатами прямых и заменяем эти символы на (*)
+// Число 40 при этом служит для приведения отчета элементов массива к x и y системы координат
 
 for (int i = 0; i < graph.GetLength(0); i+=1)
  {
  for (int j = 0; j < graph.GetLength(1); j+=1)
  {
-    double x = j-20;
-    double y1=20-k1*(x)+b1;
-    double y2=20-k2*(x)+b2;
+    double x = j-40;
+    double y1=40-(k1*(x)+b1);
+    double y2=40-(k2*(x)+b2);
     if((y1 == i)||(y2 == i))
     {
-        Console.Write($"*");
+        Console.Write($"*"); // Чертим прямые
     }
     else if (graph [i,j] == 1)
     {
-        Console.Write("|");
+        Console.Write("|");   // Создаем ось y
     }
     else if (graph [i,j] == 8)
     {
-        Console.Write("_");
+        Console.Write("_"); // Создаем ось x
     }
     else
  {
-     Console.Write($" ");
+     Console.Write($" ");  // Убираем незадействованные точки
  }
      
 }
