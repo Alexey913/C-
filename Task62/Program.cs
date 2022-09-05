@@ -78,7 +78,7 @@ void PrintArray (int [,] print)
 
 int [,] array = new int [4,4];
 
-FillRandom (array);
+FillRandom  (array);
 Console.WriteLine ("Спиральный массив");
 Console.WriteLine (); 
 PrintArray (array);
