@@ -44,51 +44,6 @@ void FillRandom (int [,] arr)
     }
 }
 
-
-//     while (j < 3)
-//     {
-//         arr[i,j] = fillCount;
-//         j++;
-//         fillCount++;
-//     }
-//     while (i < 3)
-//     {
-//         arr[i,j] = fillCount;
-//         i++;
-//         fillCount++;
-//     }
-//     while (j > 0)
-//     {
-//         arr[i,j] = fillCount;
-//         j=j-1;
-//         fillCount++;
-//     }
-//     while (i > 1)
-//     {
-//         arr[i,j] = fillCount;
-//         i=i-1;
-//         fillCount++;
-//     }
-//     while (j < 2)
-//     {
-//         arr[i,j] = fillCount;
-//         j++;
-//         fillCount++;
-//     }
-//     while (i < 2)
-//     {
-//         arr[i,j] = fillCount;
-//         i++;
-//         fillCount++;
-//     }
-//     while (j > 0)
-//     {
-//         arr[i,j] = fillCount;
-//         j=j-1;
-//         fillCount++;
-//     }
-// }
-
 void PrintArray (int [,] print)
 
 {
