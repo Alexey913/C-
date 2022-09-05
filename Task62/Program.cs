@@ -72,3 +72,4 @@ FillRandom  (array);
 Console.WriteLine ("Спиральный массив");
 Console.WriteLine (); 
 PrintArray (array);
+Console.WriteLine (); 
