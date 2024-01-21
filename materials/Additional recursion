@@ -1,0 +1,16 @@
+//Дополнительная задача на рекурсию
+// Напишите программу, которая принимает на вход число N и выдаёт произведение чисел от 1 до N. (использовать рекурсию)
+// 4 -> 24
+// 5 -> 120
+
+Console.Write ("Введите число, для которого нужно посчитать факториал: ");
+int N = Convert.ToInt32 (Console.ReadLine());
+
+Factorial (int number)
+{
+    if (number<1) return (1);
+    Factorial (number-1);
+}
+
+int factorial = Factorial(N);
+Console.WriteLine ($"Произведение чисел от 1 до N равно: {factorial}");
