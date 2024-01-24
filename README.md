@@ -1,4 +1,4 @@
-![image](https://github.com/Alexey913/C-/assets/108893923/d68ee17d-7cf3-4941-a6cc-e1967055ceca)![image](https://github.com/Alexey913/C-/assets/108893923/2102ce9f-b24c-4bdb-b038-75c950caf3ed)![image](https://github.com/Alexey913/C-/assets/108893923/d8a7080e-1f9e-4a1a-8e44-620841e23046)![image](https://github.com/Alexey913/C-/assets/108893923/b4b462b5-919f-4821-bef8-6203f639745b)# Курс C#
+# Курс C#
 
 ## [Семинар 1 - Знакомство с языком C#](Seminar1)
 ### [Задание 1](Seminar1/Example001/Program.cs)
@@ -77,29 +77,29 @@
 ### [Задание 1](Homework5/Task19/Program.cs)
 
 
-## [Семинар 4 - Функции: продолжение](Seminar4)
-### [Задание 1](Seminar4/18Quart/Program.cs)
+## [Семинар 6 - Двумерные массивы и рекурсия](Seminar6)
+### [Задание 1](Seminar6/18Quart/Program.cs)
 
-## [Домашнее задание 4](Homework4)
-### [Задание 1](Homework4/Task19/Program.cs)
-
-
-## [Семинар 4 - Функции: продолжение](Seminar4)
-### [Задание 1](Seminar4/18Quart/Program.cs)
-
-## [Домашнее задание 4](Homework4)
-### [Задание 1](Homework4/Task19/Program.cs)
+## [Домашнее задание 6](Homework6)
+### [Задание 1](Homework6/Task19/Program.cs)
 
 
-## [Семинар 4 - Функции: продолжение](Seminar4)
-### [Задание 1](Seminar4/18Quart/Program.cs)
+## [Семинар 7 - Принципы написания кода](Seminar7)
+### [Задание 1](Seminar7/18Quart/Program.cs)
 
-## [Домашнее задание 4](Homework4)
-### [Задание 1](Homework4/Task19/Program.cs)
+## [Домашнее задание 7](Homework7)
+### [Задание 1](Homework7/Task19/Program.cs)
 
 
-## [Семинар 4 - Функции: продолжение](Seminar4)
-### [Задание 1](Seminar4/18Quart/Program.cs)
+## [Семинар 8 - Принципы написания кода: продолжение](Seminar8)
+### [Задание 1](Seminar8/18Quart/Program.cs)
 
-## [Домашнее задание 4](Homework4)
-### [Задание 1](Homework4/Task19/Program.cs)
+## [Домашнее задание 8](Homework8)
+### [Задание 1](Homework8/Task19/Program.cs)
+
+
+## [Семинар 9 - Принципы написания кода: продолжение](Seminar9)
+### [Задание 1](Seminar9/18Quart/Program.cs)
+
+## [Домашнее задание 9](Homework9)
+### [Задание 1](Homework9/Task19/Program.cs)
